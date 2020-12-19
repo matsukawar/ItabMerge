@@ -67,7 +67,7 @@ ELSE.
   " ABAP7.4
 
 
-  " 項目X1とX3で構成された復号主キーを保有したソートテーブル型
+  " 項目X1とX3で構成された複合主キーを保有したソートテーブル型
   TYPES TYP_ITAB3_NEW TYPE SORTED TABLE OF LINE3 WITH UNIQUE KEY PRIMARY_KEY COMPONENTS X1 X3.
 
 
